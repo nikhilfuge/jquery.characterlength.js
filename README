@@ -1,0 +1,27 @@
+/******************************************************************************
+ * jquery.charcterlength.js
+ * Written by Nikhil Fuge on 7th March 2012
+ * This plugin is used to show the character length of an input
+ * Also, you can set the maxlength for the input and let the plugin
+ * handle the length and notify you as you reach closer to the limit.
+ *
+ * How it works:
+ * -------------
+ *
+ * Html: 
+ * -----
+ *    <input type="text" class="showchars" /><span class="chars"></span>
+ *
+ * Javascript:
+ * -----------
+ *    $(".showchars").characterlength(<Max. Length allowed>);
+ *
+ * CSS:
+ * ----
+ *    .chars {
+ *      margin-left: 10px;
+ *	    color: #ccc;
+ *	    font-style: italic;
+ *    }
+ *
+ ****************************************************************************/
